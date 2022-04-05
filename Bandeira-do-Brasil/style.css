@@ -1,0 +1,53 @@
+:root {
+    --verde: #00A859;
+    --amarelo: #FFCC29;
+    --azul: #3E4095;
+    --branco: #ffffff;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#retangulo {
+    width: 450px;
+    height: 300px;
+    background-color: var(--verde);
+}
+
+#losangulo {
+    width: 360px;
+    height: 240px;
+    background-color: var(--amarelo);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+#circulo {
+    width: 156px;
+    height: 156px;
+    background-color: var(--azul);
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#faixa {
+    border: solid 15px var(--branco);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
