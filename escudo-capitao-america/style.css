@@ -45,6 +45,15 @@ body,html {
 #star {
     width: 106px;
     height: 106px;
-    background-image: radial-gradient(#ffffff, #808080);
+    background-image: radial-gradient(#ffffff, #706f6f);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.escudo{
+    transition: transform 1s;
+}
+
+#circle1 :hover{
+    cursor: pointer;
+    transform: rotate(20deg);
 }
